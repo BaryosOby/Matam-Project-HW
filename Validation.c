@@ -1,38 +1,70 @@
 #include "Validation.h"
-#include <string.h>
+
 
 /*checks if given string is in the right size*/
 int isStrValid(char* str, int size, int charType) {
     int i, counter = 0;
-
-    if (charType == 1) {  //only numbers are valid.
-        for (i = 0; i < size; i++) {
-            if (str[i] < '0' || str[i] > '9') {
-                return 0;
+    switch (charType) {
+        case 1:
+            for (i = 0; i < size; i++) {
+                if (str[i] < '0' || str[i] > '9') {
+                    return 0;
+                }
+                counter++; //counts str length
             }
-            counter++; //counts str length
-        }
 
-    } else if (charType == 2) { //only letters are valid
-        for (i = 0; i < size; i++) {
-            if ((str[i] < 'A' || str[i] > 'Z') && (str[i] < 'a' || str[i] > 'z')&&(str[i] !='/')&&str[i]!= ' ') {
-                return 0;
+        case 2:
+            for (i = 0; i < size; i++) {
+                if ((str[i] < 'A' || str[i] > 'Z') && (str[i] < 'a' || str[i] > 'z') && str[i] != ' ') {
+                    return 0;
+                }
+                counter++;
             }
-            counter++;
-        }
+            break;
+
+        case 3: /*check if date is in the right format*/
+            for (i = 0; i < size; i++) {
+                if (i==1||i==8|i==9){
+                    if (str[i]<'0'||str[i]>'9'){
+                        return 0;}
+                    }
+                if (i==2 ||i ==5) {
+                    if (str[i] != '/') {
+                        return 0;}
+                    }
+                }
+                if (str[0] < '0' || str[0] > '3') {
+                    return 0;
+                }
+                if (str[0]=='3'){
+                    if (str[1]!='0' &&str[1]!= '1'){
+                        return 0;
+                    }
+                }
+                if (str[3]<'0'||str[3]>'1'){
+                return 0;
+                }
+                if (str[3]=='0'){
+                    if ((str[4])=='0'){
+                        return 0;
+                    }
+                }
+                if (str[6]!='2'){
+                    return 0;}
+                if (str[7]!='0'){
+                    return 0;}
+            break;
     }
+
         if ((str[i] != '\0') && (str[i] != '\n')) {
             return -1;
         }
         return 1;
-}
+    }
 
 
-int isDateValid(char* str) {
-    if(str[2]!= '/' && str[])
-}
 
 
 /*checks if an array is in its full capacity*/
-int isArrayFull(void* ptr){}
+//int isArrayFull(void* ptr){}
 

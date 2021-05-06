@@ -2,7 +2,7 @@
 
 /*help function to call in addNewCar*/
 int appendCarToList(Car car){
-
+ printf("continue");
 }
 
 /*adds new car to the cars list[index]. return 1 if succeed, 0 if failed*/
@@ -59,7 +59,7 @@ int addNewCar() {
     fillFieldInt(&velocity, 4);
     new_car.velocity = velocity;
 
-    appendCarToList();
+//    appendCarToList();
 }
 
 /*adds new supplier to the suppliers list[index]. return 1 if succeed, 0 if failed*/

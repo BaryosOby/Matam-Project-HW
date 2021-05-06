@@ -2,9 +2,10 @@
 #include "DataBase.h"
 
 int main(){
-    double x;
+    char x[11];
+    fillFieldDate(x);
+    printf("%s",x);
 
-    printf("bla bla");
 
 
     return 0;

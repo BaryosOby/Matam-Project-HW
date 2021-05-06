@@ -11,6 +11,7 @@ int fillFieldStr(char* str, int size, int charType) {
         res = isStrValid(userInput,size,charType);
         if(res==1) {
             strcpy(str, userInput);
+            str[size]='\0';
             return 1;
             }
         else if(res ==-1) {
@@ -36,11 +37,12 @@ int fillFieldDouble(double * field, int size){
     return 1;
 }
 int fillFieldDate(char* field){
-    char userInput[13];
-    fillFieldStr(userInput,11,2);
-
-
+    char userInput[12];
+    fillFieldStr(userInput, 10, 3);
+    strcpy(field,userInput);
+    return 1;
 }
+
 
 
 
