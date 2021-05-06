@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="HW3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/baryos/Documents/MATAM/HW3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/baryos/Documents/MATAM/HW3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/baryos/Documents/MATAM/HW3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW3">
+				<Option output="/home/baryos/Documents/MATAM/HW3/cmake-build-debug/HW3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/baryos/Documents/MATAM/HW3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW3"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="HW3/fast">
+				<Option output="/home/baryos/Documents/MATAM/HW3/cmake-build-debug/HW3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/baryos/Documents/MATAM/HW3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 HW3/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/baryos/Documents/MATAM/HW3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/Car.c">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/Car.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/Client.c">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/Client.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/DataBase.c">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/DataBase.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/FillField.c">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/FillField.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/Supplier.c">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/Supplier.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/Validation.c">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/Validation.h">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/main.c">
+			<Option target="HW3"/>
+		</Unit>
+		<Unit filename="/home/baryos/Documents/MATAM/HW3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
