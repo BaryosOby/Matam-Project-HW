@@ -6,8 +6,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/HW3.dir/Supplier.c.o"
   "CMakeFiles/HW3.dir/Validation.c.o"
   "CMakeFiles/HW3.dir/main.c.o"
-  "HW3"
+  "HW3.exe"
   "HW3.pdb"
+  "libHW3.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

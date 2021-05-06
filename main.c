@@ -4,8 +4,7 @@
 int main(){
     double x;
 
-    fillFieldDouble(&x, 3);
-    printf("%f",x);
+    printf("bla bla");
 
 
     return 0;

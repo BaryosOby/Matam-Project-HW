@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/baryos/Documents/MATAM/HW3/Car.c" "/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles/HW3.dir/Car.c.o"
-  "/home/baryos/Documents/MATAM/HW3/Client.c" "/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles/HW3.dir/Client.c.o"
-  "/home/baryos/Documents/MATAM/HW3/DataBase.c" "/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles/HW3.dir/DataBase.c.o"
-  "/home/baryos/Documents/MATAM/HW3/FillField.c" "/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles/HW3.dir/FillField.c.o"
-  "/home/baryos/Documents/MATAM/HW3/Supplier.c" "/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles/HW3.dir/Supplier.c.o"
-  "/home/baryos/Documents/MATAM/HW3/Validation.c" "/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles/HW3.dir/Validation.c.o"
-  "/home/baryos/Documents/MATAM/HW3/main.c" "/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles/HW3.dir/main.c.o"
+  "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Car.c" "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles/HW3.dir/Car.c.o"
+  "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Client.c" "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles/HW3.dir/Client.c.o"
+  "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/DataBase.c" "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles/HW3.dir/DataBase.c.o"
+  "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/FillField.c" "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles/HW3.dir/FillField.c.o"
+  "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Supplier.c" "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles/HW3.dir/Supplier.c.o"
+  "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Validation.c" "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles/HW3.dir/Validation.c.o"
+  "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/main.c" "/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles/HW3.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

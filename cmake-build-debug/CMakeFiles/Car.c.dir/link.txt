@@ -1,2 +1,0 @@
-/usr/bin/ar qc libCar.c.a  CMakeFiles/Car.c.dir/Client.c.o CMakeFiles/Car.c.dir/DataBase.c.o CMakeFiles/Car.c.dir/Supplier.c.o CMakeFiles/Car.c.dir/Validation.c.o
-/usr/bin/ranlib libCar.c.a

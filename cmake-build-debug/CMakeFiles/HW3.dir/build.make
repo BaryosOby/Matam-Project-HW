@@ -54,19 +54,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/baryos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /cygdrive/c/Users/elyas/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/bin/cmake.exe
 
 # The command to remove a file.
-RM = /home/baryos/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/203.7148.70/bin/cmake/linux/bin/cmake -E rm -f
+RM = /cygdrive/c/Users/elyas/AppData/Local/JetBrains/CLion2020.3/cygwin_cmake/bin/cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/baryos/Documents/MATAM/HW3
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/baryos/Documents/MATAM/HW3/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/HW3.dir/depend.make
@@ -79,94 +79,94 @@ include CMakeFiles/HW3.dir/flags.make
 
 CMakeFiles/HW3.dir/Car.c.o: CMakeFiles/HW3.dir/flags.make
 CMakeFiles/HW3.dir/Car.c.o: ../Car.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HW3.dir/Car.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/Car.c.o   -c /home/baryos/Documents/MATAM/HW3/Car.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HW3.dir/Car.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/Car.c.o   -c /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Car.c
 
 CMakeFiles/HW3.dir/Car.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HW3.dir/Car.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/baryos/Documents/MATAM/HW3/Car.c > CMakeFiles/HW3.dir/Car.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Car.c > CMakeFiles/HW3.dir/Car.c.i
 
 CMakeFiles/HW3.dir/Car.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HW3.dir/Car.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/baryos/Documents/MATAM/HW3/Car.c -o CMakeFiles/HW3.dir/Car.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Car.c -o CMakeFiles/HW3.dir/Car.c.s
 
 CMakeFiles/HW3.dir/Client.c.o: CMakeFiles/HW3.dir/flags.make
 CMakeFiles/HW3.dir/Client.c.o: ../Client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HW3.dir/Client.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/Client.c.o   -c /home/baryos/Documents/MATAM/HW3/Client.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HW3.dir/Client.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/Client.c.o   -c /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Client.c
 
 CMakeFiles/HW3.dir/Client.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HW3.dir/Client.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/baryos/Documents/MATAM/HW3/Client.c > CMakeFiles/HW3.dir/Client.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Client.c > CMakeFiles/HW3.dir/Client.c.i
 
 CMakeFiles/HW3.dir/Client.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HW3.dir/Client.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/baryos/Documents/MATAM/HW3/Client.c -o CMakeFiles/HW3.dir/Client.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Client.c -o CMakeFiles/HW3.dir/Client.c.s
 
 CMakeFiles/HW3.dir/DataBase.c.o: CMakeFiles/HW3.dir/flags.make
 CMakeFiles/HW3.dir/DataBase.c.o: ../DataBase.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/HW3.dir/DataBase.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/DataBase.c.o   -c /home/baryos/Documents/MATAM/HW3/DataBase.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/HW3.dir/DataBase.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/DataBase.c.o   -c /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/DataBase.c
 
 CMakeFiles/HW3.dir/DataBase.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HW3.dir/DataBase.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/baryos/Documents/MATAM/HW3/DataBase.c > CMakeFiles/HW3.dir/DataBase.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/DataBase.c > CMakeFiles/HW3.dir/DataBase.c.i
 
 CMakeFiles/HW3.dir/DataBase.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HW3.dir/DataBase.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/baryos/Documents/MATAM/HW3/DataBase.c -o CMakeFiles/HW3.dir/DataBase.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/DataBase.c -o CMakeFiles/HW3.dir/DataBase.c.s
 
 CMakeFiles/HW3.dir/Supplier.c.o: CMakeFiles/HW3.dir/flags.make
 CMakeFiles/HW3.dir/Supplier.c.o: ../Supplier.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/HW3.dir/Supplier.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/Supplier.c.o   -c /home/baryos/Documents/MATAM/HW3/Supplier.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/HW3.dir/Supplier.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/Supplier.c.o   -c /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Supplier.c
 
 CMakeFiles/HW3.dir/Supplier.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HW3.dir/Supplier.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/baryos/Documents/MATAM/HW3/Supplier.c > CMakeFiles/HW3.dir/Supplier.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Supplier.c > CMakeFiles/HW3.dir/Supplier.c.i
 
 CMakeFiles/HW3.dir/Supplier.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HW3.dir/Supplier.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/baryos/Documents/MATAM/HW3/Supplier.c -o CMakeFiles/HW3.dir/Supplier.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Supplier.c -o CMakeFiles/HW3.dir/Supplier.c.s
 
 CMakeFiles/HW3.dir/Validation.c.o: CMakeFiles/HW3.dir/flags.make
 CMakeFiles/HW3.dir/Validation.c.o: ../Validation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/HW3.dir/Validation.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/Validation.c.o   -c /home/baryos/Documents/MATAM/HW3/Validation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/HW3.dir/Validation.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/Validation.c.o   -c /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Validation.c
 
 CMakeFiles/HW3.dir/Validation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HW3.dir/Validation.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/baryos/Documents/MATAM/HW3/Validation.c > CMakeFiles/HW3.dir/Validation.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Validation.c > CMakeFiles/HW3.dir/Validation.c.i
 
 CMakeFiles/HW3.dir/Validation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HW3.dir/Validation.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/baryos/Documents/MATAM/HW3/Validation.c -o CMakeFiles/HW3.dir/Validation.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/Validation.c -o CMakeFiles/HW3.dir/Validation.c.s
 
 CMakeFiles/HW3.dir/main.c.o: CMakeFiles/HW3.dir/flags.make
 CMakeFiles/HW3.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/HW3.dir/main.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/main.c.o   -c /home/baryos/Documents/MATAM/HW3/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/HW3.dir/main.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/main.c.o   -c /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/main.c
 
 CMakeFiles/HW3.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HW3.dir/main.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/baryos/Documents/MATAM/HW3/main.c > CMakeFiles/HW3.dir/main.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/main.c > CMakeFiles/HW3.dir/main.c.i
 
 CMakeFiles/HW3.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HW3.dir/main.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/baryos/Documents/MATAM/HW3/main.c -o CMakeFiles/HW3.dir/main.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/main.c -o CMakeFiles/HW3.dir/main.c.s
 
 CMakeFiles/HW3.dir/FillField.c.o: CMakeFiles/HW3.dir/flags.make
 CMakeFiles/HW3.dir/FillField.c.o: ../FillField.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/HW3.dir/FillField.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/FillField.c.o   -c /home/baryos/Documents/MATAM/HW3/FillField.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/HW3.dir/FillField.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/HW3.dir/FillField.c.o   -c /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/FillField.c
 
 CMakeFiles/HW3.dir/FillField.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HW3.dir/FillField.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/baryos/Documents/MATAM/HW3/FillField.c > CMakeFiles/HW3.dir/FillField.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/FillField.c > CMakeFiles/HW3.dir/FillField.c.i
 
 CMakeFiles/HW3.dir/FillField.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HW3.dir/FillField.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/baryos/Documents/MATAM/HW3/FillField.c -o CMakeFiles/HW3.dir/FillField.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/FillField.c -o CMakeFiles/HW3.dir/FillField.c.s
 
 # Object files for target HW3
 HW3_OBJECTS = \
@@ -181,20 +181,20 @@ HW3_OBJECTS = \
 # External object files for target HW3
 HW3_EXTERNAL_OBJECTS =
 
-HW3: CMakeFiles/HW3.dir/Car.c.o
-HW3: CMakeFiles/HW3.dir/Client.c.o
-HW3: CMakeFiles/HW3.dir/DataBase.c.o
-HW3: CMakeFiles/HW3.dir/Supplier.c.o
-HW3: CMakeFiles/HW3.dir/Validation.c.o
-HW3: CMakeFiles/HW3.dir/main.c.o
-HW3: CMakeFiles/HW3.dir/FillField.c.o
-HW3: CMakeFiles/HW3.dir/build.make
-HW3: CMakeFiles/HW3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable HW3"
+HW3.exe: CMakeFiles/HW3.dir/Car.c.o
+HW3.exe: CMakeFiles/HW3.dir/Client.c.o
+HW3.exe: CMakeFiles/HW3.dir/DataBase.c.o
+HW3.exe: CMakeFiles/HW3.dir/Supplier.c.o
+HW3.exe: CMakeFiles/HW3.dir/Validation.c.o
+HW3.exe: CMakeFiles/HW3.dir/main.c.o
+HW3.exe: CMakeFiles/HW3.dir/FillField.c.o
+HW3.exe: CMakeFiles/HW3.dir/build.make
+HW3.exe: CMakeFiles/HW3.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable HW3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HW3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/HW3.dir/build: HW3
+CMakeFiles/HW3.dir/build: HW3.exe
 
 .PHONY : CMakeFiles/HW3.dir/build
 
@@ -203,6 +203,6 @@ CMakeFiles/HW3.dir/clean:
 .PHONY : CMakeFiles/HW3.dir/clean
 
 CMakeFiles/HW3.dir/depend:
-	cd /home/baryos/Documents/MATAM/HW3/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/baryos/Documents/MATAM/HW3 /home/baryos/Documents/MATAM/HW3 /home/baryos/Documents/MATAM/HW3/cmake-build-debug /home/baryos/Documents/MATAM/HW3/cmake-build-debug /home/baryos/Documents/MATAM/HW3/cmake-build-debug/CMakeFiles/HW3.dir/DependInfo.cmake --color=$(COLOR)
+	cd /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug /cygdrive/c/Users/elyas/CLionProjects/Matam-Project-HW/cmake-build-debug/CMakeFiles/HW3.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/HW3.dir/depend
 
